@@ -518,3 +518,35 @@ a {
   transition: all 0.3s linear;
   display: flex;
 }
+
+.route-search{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px;
+}
+
+.div-search{
+  width: 359px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.432);
+  border-radius: 25px;
+  padding: 6px 10px;
+}
+
+.div-search input{
+  width: 89%;
+  height: 35px;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  
+}
+
+.div-search button{
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  background-color: #e84147;
+  color: #fff;
+}

@@ -1,9 +1,13 @@
 import React from 'react'
+import { Routes, Route} from 'react-router-dom'
+import DashBoard from '../extra/DashBoardHeard'
+
+
 
 export default function Dashboard() {
   return (
-    <div>
-        
-    </div>
+    <Routes>
+      <Route path='/' element={<DashBoard/>}/>
+    </Routes>
   )
 }

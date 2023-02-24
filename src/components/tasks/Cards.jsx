@@ -5,22 +5,20 @@ import { useState } from 'react';
 
 
 function Cards() {
-    const [run , setRun] = useState(18)
+    const [run , setRun] = useState(19)
     let handleSideslipR = () => {
         if (run > 0) {
             
-            setRun(run - 19)
+            setRun(run - 18.5)
         }
     };
 
     let handleSideslipL = () => {
         if (run < 80) {
             
-            setRun(run + 19)
+            setRun(run + 18.5)
         }
         
-
-
     }
     return (
         <div style={{ margin: '0px 10px', overflow: 'hidden' }}>

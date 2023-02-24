@@ -1,0 +1,32 @@
+:where(.css-dev-only-do-not-override-diro6f).ant-menu-dark.ant-menu-root.ant-menu-inline,
+:where(.css-dev-only-do-not-override-diro6f).ant-menu-dark.ant-menu-root.ant-menu-vertical {
+    border-inline-end: 0px solid rgba(5, 5, 5, 0.06);
+    margin: 100px 0;
+}
+
+:where(.css-dev-only-do-not-override-diro6f).ant-menu-dark.ant-menu-inline .ant-menu-item {
+    position: relative;
+    margin: 20px 15px;
+}
+
+:where(.css-dev-only-do-not-override-diro6f).ant-layout .ant-layout-header {
+    height: 60px px;
+    padding-inline: 50px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 64px;
+    background: #001529;
+}
+
+:where(.css-dev-only-do-not-override-diro6f).ant-layout .ant-layout-content {
+    flex: auto;
+    min-height: 0;
+
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.h5,
+h5 {
+    font-size: 15px;
+}
+

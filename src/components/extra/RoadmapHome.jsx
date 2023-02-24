@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -106,7 +106,7 @@ function RoadmapHome() {
           </div>
         </div>
         <div className='allRoad'>
-          <p>Xem tất cả</p>
+          <Link to={'/roadmap-list'}><p>Xem tất cả</p></Link>
         </div>
       </div>
     </div>

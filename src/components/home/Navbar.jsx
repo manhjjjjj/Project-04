@@ -1,26 +1,29 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
     return (
         <>
             <header className='navbar'>
-                <div className='nb-logopage'>
-                    <img src='img/logo-Rikkei-footer.7e90750a.png' alt='' />
-                </div>
+                <Link to={"/"}>
+                    <div className='nb-logopage'>
+                        <img src='img/logo-Rikkei-footer.7e90750a.png' alt='' />
+                    </div>
+                </Link>
                 <div className='nb-pages'>
-                    <a className='pagess' href='/'>
+                    <Link to={'/'} className='pagess'>
                         <i class="fa-solid fa-house"></i>
                         <p>Trang chủ</p>
-                    </a>
-                    <a className='pagess' href='/roadmap-list'>
+                    </Link>
+                    <Link to={'/roadmap-list'} className='pagess'>
                         <i class="fa-solid fa-book"></i>
                         <p>Lộ trình</p>
-                    </a>
-                    <a className='pagess' href='/course-list'>
+                    </Link>
+                    <Link to={'/course-list'} className='pagess'>
                         <i class="fa-solid fa-book-open"></i>
                         <p>Khóa học</p>
-                    </a>
+                    </Link>
                 </div>
                 <div className='nb-logReg'>
                     <div className='from-login'>Đăng kí</div>
