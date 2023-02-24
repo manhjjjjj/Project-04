@@ -4,7 +4,10 @@ import { ReadOutlined, WalletOutlined, HistoryOutlined, ClockCircleOutlined, Uno
 import { Layout, Menu, Button } from 'antd';
 // import DashboardContent from '../tasks/DashboardContent';
 // import MyCourseList from '../tasks/MyCourseList'
-import ExamHistory from '../tasks/ExamHistory';
+// import ExamHistory from '../tasks/ExamHistory';
+// import PointHistory from '../tasks/PointHistory'
+// import AssignmentList from '../tasks/AssignmentList'
+import Account from '../tasks/Account'
 
 
 const { Header, Content, Sider } = Layout;
@@ -58,7 +61,10 @@ export default function DashBoard() {
                         <div style={{ minHeight: 360, background: '#f5f5f5', borderRadius: '30px' }}>
                             {/* <DashboardContent/> */}
                             {/* <MyCourseList/> */}
-                            <ExamHistory/>
+                            {/* <ExamHistory/> */}
+                            {/* <PointHistory/> */}
+                            {/* <AssignmentList/> */}
+                            <Account/>
                         </div>
                     </Content>
                 </Layout>

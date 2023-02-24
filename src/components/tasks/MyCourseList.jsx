@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 
-export default function DashboardContent() {
+export default function MyCourseList() {
     return (
         <div>
             <div className='route-search'>

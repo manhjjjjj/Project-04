@@ -1,39 +1,33 @@
 import React from 'react'
-import { Table, Divider } from 'antd';
+import { Table } from 'antd';
 
 
 const columns = [
     {
-      title: 'Name',
-      dataIndex: 'name',
+      title: 'Tên Bài Thi',
+      
     },
     {
-      title: 'Age',
-      dataIndex: 'age',
+      title: 'Số Câu Trả Lời Đúng',
+      
     },
     {
-      title: 'Address',
-      dataIndex: 'address',
+      title: 'Thời Gian Làm Bài',
+      
+    },
+    {
+      title: 'Kết Quả',
+      
     },
   ];
   const data = [
     {
-      key: '1',
-      name: 'John Brown',
-      age: 32,
-      address: 'New York No. 1 Lake Park',
-    },
-    {
-      key: '2',
-      name: 'Jim Green',
-      age: 42,
-      address: 'London No. 1 Lake Park',
-    },
-    {
-      key: '3',
-      name: 'Joe Black',
-      age: 32,
-      address: 'Sydney No. 1 Lake Park',
+      key: '0',
+      name: '[V2.0][M1][Chuẩn bị] Session 02 - HTML5',
+      answers: '0/0',
+      Time: '00:00 0/0/0',
+      result:''
+    //   không có gì///
     },
   ];
 
@@ -50,7 +44,6 @@ export default function ExamHistory() {
                 </div>
             </div>
             <div>
-                <Divider>Middle size table</Divider>
                 <Table columns={columns} dataSource={data} size="middle" />
             </div>
         </div>
