@@ -63,3 +63,18 @@ colgroup{
     
 }
 
+.ant-form .ant-form-horizontal .css-dev-only-do-not-override-diro6f{
+    max-width: 875px;
+    display: flex;
+    flex-direction: column;
+}
+
+:where(.css-dev-only-do-not-override-diro6f).ant-form-item .ant-form-item-label {
+    display: inline-block;
+    flex-grow: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: start;
+    vertical-align: middle;
+}
+

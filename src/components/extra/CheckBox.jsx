@@ -17,8 +17,8 @@ const FormDisabledDemo = () => {
                     maxWidth: 600,
                 }}
             >
-                <Form.Item label="Giới tính">
-                    <Radio.Group>
+                <Form.Item label="Giới tính:">
+                    <Radio.Group style={{display:'flex', margin:'0 30px'}}>
                         <Radio value="Nam"> Nam </Radio>
                         <Radio value="Nữ"> Nữ </Radio>
                         <Radio value="Khác"> khác </Radio>

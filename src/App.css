@@ -8,7 +8,7 @@ body {
   font-family: Roboto Flex;
   font-size: 16px;
   /* scroll-behavior: smooth; */
-  
+
 }
 
 .container-homepage {
@@ -42,7 +42,6 @@ body {
   width: 50%;
   display: flex;
   margin-top: 14px;
-
 }
 
 .nb-pages .pagess {
@@ -513,19 +512,20 @@ a {
   -webkit-line-clamp: 3;
   min-height: 76px;
 }
-.side11{
+
+.side11 {
   transform: translateX(-100px);
   transition: all 0.3s linear;
   display: flex;
 }
 
-.route-search{
+.route-search {
   display: flex;
   justify-content: space-between;
   padding: 50px 30px;
 }
 
-.div-search{
+.div-search {
   width: 359px;
   height: 50px;
   border: 1px solid rgba(0, 0, 0, 0.432);
@@ -533,16 +533,16 @@ a {
   padding: 6px 10px;
 }
 
-.div-search input{
+.div-search input {
   width: 89%;
   height: 35px;
   border: none;
   outline: none;
   padding: 0 20px;
-  
+
 }
 
-.div-search button{
+.div-search button {
   width: 35px;
   height: 35px;
   border: none;
@@ -552,6 +552,39 @@ a {
 }
 
 
-.account-title-img span{
+.account-title-img span {
   position: relative;
+}
+
+.account-img-ipt {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.account-title-img{
+  text-align: center;
+}
+
+.account-container input{
+  width: 270px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  outline: none;
+  padding: 3px 20px;
+  margin: 10px 0px;
+}
+
+.title-ipts{
+  display: flex;
+}
+
+.ipts{
+  margin: 0 20px;
+}
+
+
+.titless{
+  padding: 40px 60px;
 }

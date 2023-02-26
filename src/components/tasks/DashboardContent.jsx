@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import { Outlet } from 'react-router-dom';
 
 export default function DashboardContent() {
     return (
@@ -24,6 +25,7 @@ export default function DashboardContent() {
                     </Card.Body>
                 </Card>
             </div>
+            <Outlet/>
         </div>
     )
 }
